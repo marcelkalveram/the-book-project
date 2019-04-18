@@ -1,0 +1,108 @@
+/* Breakpoint at 780px
+--------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 48.75em),
+	   only screen and (min-device-pixel-ratio: 2) and (max-width: 48.75em),
+	   only screen and (min-resolution: 192dpi) and (max-width: 48.75em) {
+
+		.social-media li a {
+			background: url(../img/icons-social-media-medium@2x.png) top left no-repeat;
+			background-size: 232px 118px;
+		}
+
+		.icon-notepad {
+			background: url(../img/icon-agenda@2x.png) 0 0 no-repeat;
+			background-size: 86px 86px;
+			}
+
+		.icon-user {
+			background: url(../img/icon-author@2x.png) 0 0 no-repeat;
+			background-size: 96px 96px;
+			}
+
+		.icon-idea {
+			background: url(../img/icon-book@2x.png) 0 0 no-repeat;
+			background-size: 124px 124px;
+			}
+
+		.form-step-1 {
+			background: url(../img/step-1@2x.png) top center no-repeat;
+			background-size: 54px 74px;
+		}
+
+		.form-step-2 {
+			background: url(../img/step-2@2x.png) top center no-repeat;
+			background-size: 53px 70px;
+		}
+
+		.success-message h4 {
+			background: url(../img/checkmark@2x.png) top left no-repeat;
+			background-size: 48px 48px;
+		}
+
+		#contact-form .help-text {
+			background: url(../img/contact-small@2x.png) top center no-repeat;
+			background-size: 220px 134px;
+		}
+
+		#pre-footer {
+			background: url(../img/background-footer.png) center center no-repeat #F2EAE4;
+			background-size: 990px 190px;
+		}
+
+		.made-in {
+			background: url(../img/icon-valencia@2x.png) left -3px no-repeat;
+			background-size: 32px 26px;
+			}
+
+		.proposal .count-facebook i, .proposal .count-twitter i {
+			background: url(../img/icon-count@2x.png) left center no-repeat;
+			background-size: 105px 17px;
+		}
+
+		.proposal .count-twitter i {
+			background-position: -85px 0;
+		}
+
+		// .progress-steps-pointer {
+		// 	background: url(../img/progress-steps-arrow@2x.png) 67% 32px no-repeat;
+		// 	padding: 116px 107px;
+		// }
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 42.5em),
+	   only screen and (min-device-pixel-ratio: 2) and (max-width: 42.5em),
+	   only screen and (min-resolution: 192dpi) and (max-width: 42.5em) {
+
+	.progress-steps-pointer {
+		// background: url(../img/progress-steps-arrow-rotated@2x.png) top left no-repeat;
+		// background-size: 116px 107px;
+	}
+
+}
+
+/* Breakpoint at 520px
+--------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 32.5em),
+	   only screen and (min-device-pixel-ratio: 2) and (max-width: 32.5em),
+	   only screen and (min-resolution: 192dpi) and (max-width: 32.5em) {
+
+	.address {
+		background: url(../img/house-medium@2x.png) top center no-repeat;
+		background-size: 360px 267px;
+	}
+
+}
+
+/* Breakpoint at 464px
+--------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 29em),
+	   only screen and (min-device-pixel-ratio: 2) and (max-width: 29em),
+	   only screen and (min-resolution: 192dpi) and (max-width: 29em) {
+
+	.address {
+		background: url(../img/house-small@2x.png) top center no-repeat;
+		background-size: 232px 173px;
+	}
+
+}

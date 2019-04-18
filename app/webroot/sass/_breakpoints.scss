@@ -1,0 +1,1369 @@
+/* Breakpoint at 1680px
+--------------------------------------------------------------------------*/
+@media only screen and (min-width: 105.0625em) {
+
+	#masthead {
+		margin-bottom: 538px;
+	}
+
+	.steps {
+		margin-left: auto; margin-right: auto;
+	}
+
+	.steps .cinema {
+		display: block;
+	}
+
+	.steps .desktop {
+		display: none;
+	}
+
+}
+
+/* Breakpoint at 1562px
+--------------------------------------------------------------------------*/
+@media only screen and (min-width: 102.5em) {
+
+	.bg-image-container .bg-image {
+		margin-left: -818px;
+	}
+
+}
+
+/* Breakpoint at 1562px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 97.625em) {
+
+	.contact.quote .break {
+		display: none;
+	}
+
+}
+
+/* Breakpoint at 1390px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 86.875em) {
+
+	.steps {
+		margin-right: 12%;
+		}
+
+		.step h4 {
+			font-size: 1em; margin-bottom: 0.25em;
+		}
+
+		.steps.additional-info p {
+			font-size: 13px;
+		}
+
+	.quote {
+
+		}
+
+		.quote h2 {
+			font-size: 1.6em;
+			}
+
+	}
+
+/* Breakpoint at 1230px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 76.875em) {
+
+	.steps {
+		margin-right: 16%;
+		}
+
+	.quote {
+
+		}
+
+		.quote h2, blockquote p {
+			font-size: 1.5em;
+			}
+
+	.logo img {
+		width: 14em;
+		}
+
+	#navigation {
+		padding-top: 7.25em
+		}
+
+
+	.header-about .bg-image {
+		top: 30%;
+	}
+
+	#masthead.votehead {
+		height: 180px;
+	}
+
+}
+
+/* Breakpoint at 1130px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 70.625em) {
+
+	.objectives .target-container {
+		margin-top: 4.5em; margin-left: 3em;
+	}
+
+	.info {
+		// padding: 0 3em;
+		width: 88%; margin: 0 auto;
+	}
+
+		.info .break {
+			display: none;
+		}
+
+	.quote-proposals .break {
+		display: none;
+	}
+
+	.step-1 {
+		top: 62.2%; left: 20%;
+	}
+
+	.step-2 {
+		top: 30.5%; left: 45%;
+	}
+
+	.step-3 {
+		top: 53.5%; left: 88%;
+	}
+
+	#contact-form .help-text, .help-form,  {
+		float: none; width: 88%; margin-left: auto; margin-right: auto;
+	}
+
+	.help-form .forename, .help-form .lastname, .help-form .email {
+		float: none; width: 100%;
+	}
+
+	.help-form .submit {
+		clear: both;
+	}
+
+	.help-form .submit input {
+		margin-top: 16px;
+	}
+
+	#contact-form .success-message {
+		float: none; margin-bottom: 0; padding-top: 1em;
+	}
+
+}
+
+/* Breakpoint at 1080px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 67.5em) {
+
+	.form-step-1, .form-step-2, #ProposalParticipateForm textarea, #charCount, .form .notice, .locked {
+		width: 84%; margin: 0 auto;
+	}
+
+	.form-step-1 {
+		margin-bottom: 2em;
+	}
+
+	.form .notice {
+		margin-top: 2em; margin-bottom: 2em;
+	}
+
+	.locked {
+		margin-top: 1em; float: none;
+	}
+
+	.locked-button {
+		margin-top: 1em;
+	}
+
+	#ProposalParticipateForm input[type=submit] {
+		float: none; margin: 0 auto;
+	}
+
+	#participate-form .success-message, #participate-form .success-message-share {
+		padding: 0 0 0 5%; margin: 0;
+	}
+
+	#participate-form .success-message-share {
+		padding: 0 5% 0 0;
+	}
+
+	#participate-form .success-message {
+		margin-bottom: 2em;
+	}
+
+	.date-2 {
+		width: 690px;
+	}
+
+	.notice-icon {
+		padding-top: 4em;
+	}
+
+	.form-step-2 {
+		padding-bottom: 1em;
+	}
+
+}
+
+
+/* Breakpoint at 1040px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 65em) {
+
+	.break.ipad-landscape {
+		display: none;
+	}
+
+	.steps {
+		margin-right: 0; margin-top: 3em; margin-bottom: 1em;
+	}
+
+		.steps .desktop {
+			display: none;
+		}
+
+		.steps .tablet {
+			display: block;
+		}
+
+	.step {
+		position: static; float: left; width: 33%; /* height: 8em; */
+		margin: 2em 0 0 -2px; padding: 0 4% 0 4%; border-left: 1px dashed #999;
+	}
+
+		.step h4 {
+			font-size: 1.25em; margin-bottom: 0.25em;
+		}
+
+		.steps.additional-info p {
+			font-size: 0.9375em;
+		}
+
+	.objectives .target-container {
+		margin-top: 6em;
+	}
+
+	.about-us, .proposals, .participate, .details, .objectives, .about-us {
+		width: 100%;
+		padding: 0.75em 2% 3em;
+	}
+
+	#participate-form .break {
+		display: none;
+	}
+
+	#footer-transition {
+		margin-top: -1px;
+	}
+
+	.proposal-accept h3, .proposal-accept .content {
+		max-width: 80%; margin: 0 auto 2.25em;
+	}
+
+	// .social-count, .proposal .proposal-source {
+	// 	margin-top: 1em;
+	// }
+
+	// .proposal .proposal-source {
+	// 	padding-top: 0.6em;
+	// }
+
+	// .proposal blockquote {
+	// 	height: 180px;
+	// }
+
+	.winner.proposal blockquote .proposal-text {
+		height: 104px;
+	}
+
+	.pentian {
+		max-width: 55em;
+	}
+
+		.pentian br.desktop {
+			display: none;
+		}
+
+}
+
+/* Breakpoint at 1000px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 62.5em) {
+
+	.logo img {
+		width: 13.5em;
+		}
+
+	.intro {
+		max-width: 100%;
+		}
+
+		.intro .vote {
+			margin-left: 6%;
+		}
+
+		.intro .video {
+			margin-left: 46%;
+		}
+
+	#navigation {
+		padding-top: 6.75em
+		}
+
+	.proposal-text {
+		margin-bottom: 2em;
+	}
+
+	.objectives .target-container {
+		float: none; text-align: center;
+		margin-top: -1em; margin-bottom: 1.8em; margin-left: 0;
+		}
+
+		.target-container .desktop {
+			display: none;
+			}
+
+		.target-container .tablet {
+			display: inline;
+			}
+
+	.objectives .info p {
+		margin-left: 0;
+		}
+
+	.header-about .bg-image {
+		top: 29%;
+	}
+
+	.sinopsis {
+		margin:0 auto; width: 94%;
+	}
+
+	.progress-steps-pointer {
+		// padding: 107px 0 0 652px;
+		padding: 107px 0 0 40%;
+	}
+
+}
+
+/* Breakpoint at 960px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 60em) {
+
+	.person .bio {
+		padding: 0 0.5em;
+	}
+
+	.help-form {
+		float: none; padding-right: 0; padding-top: 31%; margin-top: -8%;
+		background-position: right top;
+	}
+
+	#contact-form .help-text {
+		float: left; width: 48%; padding-left: 6%; padding-top: 2.5%;
+	}
+
+	.help-form .textarea {
+		float: left; width: 50%;
+	}
+
+	.help-form .forename, .help-form .lastname, .help-form .email {
+		width: 46%; margin-left: 54%;
+	}
+
+	.help-form .submit {
+		clear: none;
+	}
+
+	.address {
+		padding-left: 56%; padding-right: 2%;
+	}
+
+	#contact-form .success-message {
+		padding-top: 0; margin-top: 0; height: auto;
+	}
+
+	#contact-form .success-message, #contact-form .success-message p {
+		width: 100%;
+	}
+
+	.success-message h4 {
+		width: auto;
+	}
+
+	#footer-transition {
+		margin-top: -2px;
+	}
+
+	.timetable h3 {
+		margin-bottom: 1.5em;
+	}
+
+	.date-1, .date-2, .date-3 {
+		background: url(../img/timetable-dates-medium.png) 0 38px no-repeat;
+		float: none; height: auto; width: 84%; margin-left: 59px; padding-left: 188px; padding-right: 0;
+	}
+
+	.date-2 {
+		background-position: 0 -162px;
+	}
+
+	.date-3 {
+		margin-top: 24px;
+		background-position: 0 -386px;
+	}
+
+	.date-3 h4, .date-3 p {
+		text-align: left;
+	}
+
+	.proposal blockquote {
+		height: 196px;
+	}
+
+	// .proposal .social-count {
+	// 	margin-top: 0;
+	// }
+
+	// .proposal .proposal-source {
+	// 	padding: 0 36px 0 0; margin-bottom: 2em;
+	// }
+
+	.notice-icon {
+		padding-top: 5.6em;
+	}
+
+	.progress-steps-pointer {
+		padding: 107px 0 0 38%;
+		background-position: 86.2% 32px !important;
+		// background-position: 69.9% 32px;
+	}
+
+}
+
+/* Breakpoint at 926px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 57.93em) {
+
+	.break {
+		display: none;
+		}
+
+	.form-step-1, .form-step-2, #ProposalParticipateForm textarea, #charCount, .form .notice, .locked {
+		width: 88%;
+		}
+
+	#charCount {
+		font-size: 0.9em;
+	}
+
+	#ProposalParticipateForm .form input[type=submit] {
+		float: none; margin: 0 auto;
+	}
+
+	.person img {
+		width: 100%;
+	}
+
+	.address {
+		width: 80%;
+		background: url(../img/house.png) top center no-repeat;
+		padding-left: 0; padding-right: 0; padding-top: 17em;
+		margin: 0 auto;
+	}
+
+	.collaborator {
+		float: none; width: 94%; margin-bottom: 2em;
+	}
+
+	.lopo.collaborator-logo {
+		margin-bottom: 0.55em;
+	}
+
+	.libros.collaborator-logo {
+		margin-bottom: 0.55em;
+	}
+
+	// .proposal {
+	// 	background: url(../img/scrapbook-small.png) center top no-repeat;
+	// 	height: 264px;
+	// }
+
+		// .proposal blockquote {
+		// 	height: 141px; padding: 1.25em 2.75em;
+		// 	font-size: 0.9em;
+		// }
+
+	// 	.proposal a.fancybox {
+	// 		// margin-top: 1em;
+	// 		margin-top: -0.6em;
+	// 	}
+
+	// 	.proposal blockquote .proposal-text {
+	// 		height: 125px; margin-bottom: 0;
+	// 	}
+
+	// .proposal .proposal-source {
+	// 	padding: 2px 36px 0 0; margin-bottom: 3em;
+	// }
+
+	.proposal {
+		background: url(../img/scrapbook-small-wide.png) center top no-repeat;
+		float: none; width: 400px; height: 274px; padding-top: 1em; margin: 12px auto 1.33em;
+	}
+
+		.proposal blockquote {
+			height: 144px;
+			font-size: 1em;
+			padding-top: 1em; margin-bottom: 0.5em;
+		}
+
+		.proposal blockquote .proposal-text {
+			height: 128px; margin-bottom: 0;
+		}
+
+		.proposal .proposal-source {
+			margin-bottom: 1.5em;
+		}
+
+			.proposal p {
+				// font-size: 0.9em;
+			}
+
+			.proposal a {
+				// margin-top: 0;
+			}
+
+	.proposal .social-count {
+		float: left; width: auto; margin: 0; padding: 0; padding-left: 36px;
+	}
+
+	.proposal .proposal-source {
+		margin: 0; padding: 0 36px 0 0;
+		font-size: 1em; text-align: right;
+	}
+
+	.progress-steps-pointer {
+		padding: 107px 0 0 36%;
+		// background-position: 69.9% 32px;
+	}
+
+	.proposal.winner .medal {
+		top: 122px;
+	}
+
+	.proposal.winner .trophy {
+		top: 106px;
+	}
+
+	.proposal.winner blockquote {
+		height: 130px;
+	}
+
+	.proposal.winner.first blockquote {
+		height: 124px;
+	}
+
+	.pentian {
+		max-width: 36em;
+	}
+
+		.pentian .notice {
+			margin: 0em 0 2em;
+		}
+
+}
+
+/* Breakpoint at 866px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 54.125em) {
+
+	.help-form {
+		width: 78%; padding-top: 0; margin-top: 2em;
+		background: none;
+	}
+
+	#contact-form .help-text {
+		float: none; width: 78%; margin: -78px auto 0; padding-left: 0; padding-top: 272px;
+		background: url(../img/contact.png) top center no-repeat;
+	}
+
+	#footer-transition {
+		margin-top: -3px;
+	}
+
+	.date-1, .date-2, .date-3 {
+		width: 88%; margin: 0 auto; padding-left: 0;
+		background: none;
+
+		h4, p {
+			text-align: center;
+		}
+
+	}
+
+	.progress-steps-pointer {
+		padding: 107px 0 0 31%;
+		// padding: 107px 0 0 67.4%;
+		// background-position: 70.9% 32px;
+	}
+
+	// .proposal blockquote {
+	// 	padding: 1.25em 2em;
+	// }
+
+	// .proposal .proposal-text {
+	// 	margin-bottom: 0.5em;
+	// }
+
+	// .proposal blockquote {
+	// 	padding: 0.6em 2em;
+	// }
+
+	// .proposal blockquote .proposal-text {
+	// 	height: 126px; overflow: hidden;
+	// }
+
+	// .proposal .social-count {
+	// 	float: none; width: 8em; margin: 0 0 0 7em; padding: 0;
+	// 	padding-top: 0.3em;
+	// 	margin-bottom: 2em;
+	// }
+
+	// .proposal .proposal-source {
+	// 	// margin: -5.6em 0 3.2em;
+	// 	// padding: 0;
+	// 	font-size: 0.9em; text-align: center;
+	// }
+
+}
+
+/* Breakpoint at 804px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 50.25em) {
+
+	#participate-form .success-message {
+		width: 100%; height: auto;
+		padding: 0 5%;
+	}
+
+	#participate-form .success-message-share h4, #participate-form .success-message-share p {
+		padding-left: 5%; padding-bottom: 0;
+	}
+
+	.success-message-share .social-media {
+		width: 160px; margin: 0 auto; padding-left: 0;
+	}
+
+	.progress-steps-pointer {
+		padding: 107px 0 0 30%;
+		// background-position: 71.5% 32px;
+		// padding-left: 68.7%;
+	}
+
+	// .social-media .facebook {
+	// 	margin-right: 0;
+	// }
+
+}
+
+/* Breakpoint at 780px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 48.75em) {
+
+	p {
+		font-size: 1em;
+		}
+
+	.intro, .proposals, .details, .objectives, .about-us {
+		padding: 0.75em 1em;
+	}
+
+	.intro {
+		margin-top: 1em;
+	}
+
+		.intro .vote {
+			float: none; width: 100%;
+			margin: 0 0 3em;
+			text-align: center;
+			}
+
+		.intro .video {
+			margin-left: 0; width: 100%;
+			text-align: center;
+			}
+
+	.intro p {
+		margin-bottom: 1em;
+	}
+
+		.intro a {
+			width: 12em; margin: 1em auto 0;
+		}
+
+	.quote h2 {
+		font-size: 1.4em;
+	}
+
+	.cite {
+		line-height: 1.33em;
+	}
+
+	.social-media ul {
+		width: 16.75em;
+		}
+
+		.social-media li {
+			float: left; margin-right: 0.75em;
+			}
+
+			.social-media li a {
+				display: block; width: 3.625em; height: 3.625em;
+				background: url(../img/icons-social-media-medium.png) top left no-repeat;
+			}
+
+			.social-media .facebook a {
+				background-position: 0 0;
+				}
+
+			.social-media .facebook a:hover {
+				background-position: 0 -59px;
+				}
+
+			.social-media .twitter a {
+				background-position: -63px 2px;
+			}
+
+			.social-media .twitter a:hover {
+				background-position: -63px -59px;
+			}
+
+			.social-media .google a {
+				background-position: -118px 0;
+			}
+
+			.social-media .google a:hover {
+				background-position: -118px -59px;
+			}
+
+			.social-media .vimeo a {
+				background-position: -179px -2px;
+			}
+
+			.social-media .vimeo a:hover {
+				background-position: -179px -61px;
+			}
+
+	// .about-us {
+	// 	padding-bottom: 0; padding-top: 0; margin-top: 0;
+	// }
+
+	.person {
+		float: none; clear: both; width: 78%; padding-top: 1em;
+		margin: 0 auto;
+	}
+
+		.person .photo {
+			float: left;
+		}
+
+		.person .bio {
+			padding: 0 1em 0 15em;
+		}
+
+			.person .bio strong {
+				display: block; padding-top: 2em; padding-bottom: 0.5em;
+			}
+
+	.collaborators {
+		margin-bottom: 2em;
+	}
+
+	.success-message-share .social-media {
+		width: 128px;
+	}
+
+	#footer-transition {
+		margin-top: -4px;
+	}
+
+	.timetable {
+		padding-bottom: 2em;
+	}
+
+		.timetable h3 {
+			margin-bottom: 1em;
+		}
+
+	.notice {
+		text-align: center;
+	}
+
+	.notice-icon {
+		float: none; padding: 0; margin-bottom: 1em;
+	}
+
+	.form .notice p {
+		margin-left: 0; text-align: center;
+	}
+
+	.collaborator-big {
+		width: 94%; padding: 0em; padding-top: 0.5em;
+	}
+
+		.collaborator-big .collaborator-logo {
+			float: none; text-align: center; padding-bottom: 0; padding-right: 0;
+			// float: left; padding-right: 34px;
+		}
+
+	.details.vote {
+		padding: 0.75em 3em;
+	}
+
+		.details.vote img {
+			position: static;
+			display: block; width: 128px; margin: 0 auto 2.5em;
+		}
+
+	.progress-steps-pointer {
+		padding: 107px 0 0 28%;
+		background-position: 87.4% 32px !important;
+		// background-position: 71% 32px !important;
+		// padding-left: 68.8%;
+	}
+
+	.proposals {
+		margin-bottom: 3em;
+	}
+
+
+	.proposal {
+		background: url(../img/scrapbook-small-wide.png) center top no-repeat;
+		float: none; width: 400px; height: 274px; padding-top: 1em; margin: 12px auto 1.33em;
+	}
+
+		.proposal blockquote {
+			font-size: 1em;
+			padding-top: 1em; margin-bottom: 0.5em;
+		}
+
+		.proposal blockquote .proposal-text {
+			height: 128px; margin-bottom: 0;
+		}
+
+		.proposal .proposal-source {
+			margin-bottom: 1.5em;
+		}
+
+			.proposal p {
+				// font-size: 0.9em;
+			}
+
+			.proposal a {
+				// margin-top: 0;
+			}
+
+	.proposal .social-count {
+		float: left; width: auto; margin: 0; padding: 0; padding-left: 36px;
+	}
+
+	.proposal .proposal-source {
+		margin: 0; padding: 0 36px 0 0;
+		font-size: 1em; text-align: right;
+	}
+
+	.proposal a.fancybox {
+		margin-top: 2.75em;
+	}
+
+	.pentian {
+		.notice {
+			padding-bottom: 24px;
+			img {
+				margin-left: 0;
+			}
+		}
+
+		.notice p {
+			margin: 0 auto;
+		}
+
+		.notice .cta-button {
+			float: none;
+			margin-left: 0;
+		}
+	}
+
+}
+
+/* Breakpoint at 680px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 42.5em) {
+
+	.bg-image {
+		display: none;
+	}
+
+		.logo img {
+			width: 13em;
+		}
+
+	#masthead {
+		margin-bottom: 1em;
+	}
+
+	/* MASTHEAD > NAVIGATION */
+	#navigation {
+		padding-top: 6.5em;
+	}
+
+		/* MASTHEAD > NAVIGATION > BUTTON GROUP */
+		.button-group {
+			width: auto; padding-left: 0;
+		}
+
+		.button-group > * {
+			float: none;
+			text-align: center;
+			}
+
+			.button.small, .button-group .big a {
+				display: block; width: 100%; height: 2em;
+				margin-bottom: 0.5em; margin-right: 0; padding-top: 0.5em; padding-bottom: 1.5em;
+				font-size: 1.2em;
+				@include border-radius(0);
+			}
+
+			.button-group .big a {
+				margin-top: 0;
+			}
+
+		.quote {
+
+		}
+
+			.quote h2 {
+				font-size: 1.5em;
+			}
+
+	.detail {
+		margin: 36px 1em 0;
+		}
+
+	.about-us, .proposals, .participate, .objectives, .details {
+		padding-top: 0;
+		// margin-top: 0;
+	}
+
+		.about-us h3, .proposals h3, .participate h3 {
+			margin: 0 0 1em;
+		}
+
+		.info h4, .info p {
+			margin-left: 0;
+			}
+
+		.info h4, .form h4 {
+			// text-align: center;
+			margin-bottom: 1em;
+			}
+
+		.icon-idea, .icon-notepad, .icon-user {
+			float: none; margin: 0 auto;
+			}
+
+		.icon-idea {
+			margin-top: -1.5em; margin-bottom: 1em;
+			}
+
+		.icon-notepad {
+			margin-bottom: 0.45em;
+		}
+
+		.icon-user {
+			margin-bottom: 0.75em;
+		}
+
+	.steps {
+		margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0;
+		}
+
+		.steps .tablet {
+			display: none;
+			}
+
+		.step {
+			float: none; width: 88%; height: auto; border: 0;
+			margin: 0 auto; padding: 0;
+			// padding: 0 6em;
+			}
+
+			.steps.additional-info p {
+				padding-bottom: 1.5em; margin-bottom: 1.5em;
+				border-bottom: 1px dashed #999;
+				}
+
+			.steps.additional-info .step-3 p {
+				border-bottom: 0;
+				}
+
+	.objectives .target-container {
+		margin-bottom: 2em;
+	}
+
+		.target-container .tablet {
+			display: none;
+			}
+
+		.target-container .mobile {
+			display: inline;
+		}
+
+	.objectives	strong {
+		display: block; margin-bottom: 0.66em; text-align: center;
+	}
+
+	.objectives strong span {
+		display: none;
+	}
+
+	.person {
+		width: 100%;
+	}
+
+		.person .bio strong {
+			padding-top: 1em;
+		}
+
+	.participate h3 {
+		margin-bottom: 1.25em;
+	}
+
+	.form .forename, .form .lastname, .form .email {
+		float: none; margin: 0 auto; width: 66%;
+	}
+
+	.help-form .textarea {
+		float: none; width: 100%;
+	}
+
+	.help-form .forename, .help-form .lastname, .help-form .email {
+		width: 100%;
+	}
+
+
+	.participate .success-message h4 {
+		text-align: left;
+	}
+
+	#participate-form .success-message, #participate-form .success-message-share {
+		text-align: center;
+	}
+
+	#participate-form .success-message h4 {
+		padding-left: 0; padding-top: 64px;
+		background-position: top center;
+	}
+
+	.mark-stevenson blockquote {
+		width: 100%; margin-left: 0;
+	}
+
+		.mark-stevenson .image {
+			float: none; display: block; margin: 0 auto 0.5em;
+		}
+
+		.mark-stevenson .cite {
+			margin-left: 0;
+		}
+
+	#pre-footer {
+		height: 16em;
+		background: url(../img/background-footer-small.png) center center no-repeat #F2EAE4;
+	}
+
+		#pre-footer img, #footer-transition img {
+			display: none;
+		}
+
+		#footer-transition {
+			height: 42px;
+			background: url(../img/background-footer-transition.png) center center no-repeat;
+		}
+
+	.inline-list {
+		width: 24.3em;
+	}
+
+	.inline-list li.copyright {
+		float: none; text-align: center; margin-bottom: 0.5em;
+		}
+
+		.inline-list li.copyright span {
+			display: none;
+		}
+
+		.inline-list .faq-link {
+			margin-left: 0;
+		}
+
+		.inline-list li a, .made-in {
+			font-size: 0.9em;
+		}
+
+	.timetable h4 b {
+		display: block; margin-top: 0.12em;
+	}
+
+	.timetable h4 span {
+		display: none;
+	}
+
+	.terms-checkbox	{
+		width: 66%;
+	}
+
+	.proposal-accept .terms-checkbox {
+		width: 80%;
+	}
+
+	#masthead.votehead {
+		height: 170px;
+	}
+
+	.progress-steps {
+		width: 24px;
+	}
+
+	.progress-steps-pointer {
+		width: 36%; height: 640px; margin: -114px 0 0 58%; padding: 111px 0 0;
+		background: url(../img/progress-steps-arrow-rotated.png) top left no-repeat !important;
+	}
+
+		.progress-steps li a {
+			float: none; display: block; width: 24px; height: 72px;
+		}
+
+			.progress-steps li.month-1 a {
+				@include border-top-left-radius(12px);
+				@include border-top-right-radius(12px);
+				@include border-bottom-left-radius(0);
+			}
+
+			.month-12 a {
+				@include border-top-right-radius(0);
+				@include border-bottom-right-radius(12px);
+				@include border-bottom-left-radius(12px);
+			}
+
+	.pentian {
+		max-width: 26em;
+	}
+
+}
+
+/* Breakpoint at 574px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 35.875em) {
+
+	.inline-list {
+		width: auto;
+	}
+
+		.inline-list li {
+			float: none; margin-left: 0; text-align: center;
+		}
+
+	.mark-stevenson .cite, .mark-stevenson blockquote p {
+		text-align: center;
+	}
+
+	.mark-stevenson.quote {
+		padding-left: 0; padding-right: 0;
+	}
+
+	#footer-transition {
+		margin-top: -3px;
+	}
+
+	.inline-list li {
+		margin-bottom: 0.33em;
+		}
+
+	.proposal-accept .unlocked, .proposal-accept .unlocked-button {
+		width: auto;
+	}
+
+	.proposal-accept .terms-checkbox {
+		width: 66%;
+	}
+
+}
+
+/* Breakpoint at 520px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 32.5em) {
+
+	.intro p {
+		margin-bottom: 1.25em;
+	}
+
+		.intro a {
+			margin-top: 0;
+		}
+
+	.info h4, .form h4 {
+		text-align: center;
+		}
+
+	.form-step-1, .form-step-2 {
+		width: 80%; padding-top: 5em; padding-left: 0;
+		background-position: top center;
+		}
+
+	.form .forename, .form .lastname, .form .email, .terms-checkbox {
+		width: 80%;
+		}
+
+	.form input.terms-link {
+		margin-bottom: 3em;
+		}
+
+	.help-form .forename, .help-form .lastname, .help-form .email {
+		width: 100%;
+	}
+
+	.address {
+		background: url(../img/house-medium.png) top center no-repeat;
+		padding-top: 14em;
+	}
+
+	.details.vote ul {
+		padding-bottom: 1em;
+	}
+
+	.details.vote ul li {
+		width: auto; float: none; text-align: center; margin-bottom: 1em;
+	}
+
+	.progress-steps {
+		width: auto; margin-left: 24%;
+	}
+
+	.progress-steps-pointer {
+		width: 47%; margin-left: 38%;
+		background: url(../img/progress-steps-arrow-rotated.png) top left no-repeat;
+	}
+
+}
+
+/* Breakpoint at 480px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 30em) {
+
+	.break.mobile {
+		display: block;
+	}
+
+	.step {
+		float: none; width: 78%; height: auto; border: 0;
+		}
+
+	.person .photo {
+		float: none; text-align: center;
+		margin: 0;
+	}
+
+		.person .photo img {
+			width: 50%;
+		}
+
+	.person .bio {
+		width: 80%; padding: 0;
+		margin: 0 auto 1em;
+		text-align: center;
+	}
+
+	.help-form .submit input {
+		margin: 19px auto 0; float: none;
+	}
+
+	#contact-form .help-text {
+		background: url(../img/contact-small.png) top center no-repeat;
+		margin: -12px auto 0; padding-top: 160px;
+	}
+
+	.progress-steps {
+		width: auto; margin-left: 20%;
+	}
+
+}
+
+/* Breakpoint at 464px
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 29em) {
+
+	.address {
+		background: url(../img/house-small.png) top center no-repeat;
+		padding-top: 9em;
+	}
+
+	.proposal {
+		background: url(../img/scrapbook-small.png) center top no-repeat;
+		width: 247px; height: 274px; padding-top: 1em; font-size: 0.9em;
+	}
+
+	.proposal.winner {
+		height: 200px;
+	}
+
+	.proposal blockquote {
+		height: 152px;
+	}
+
+	.proposal blockquote .proposal-text {
+		margin-bottom: 1.5em;
+	}
+	.proposal .proposal-source {
+		margin-bottom: 2em;
+	}
+
+	.proposal.winner .trophy {
+		width: 64px; top: 132px; left: 36px;
+	}
+
+	.proposal.winner .medal {
+		width: 48px; top: 145px; left: 36px;
+	}
+
+	.proposal.winner blockquote {
+		height: 132px;
+	}
+
+	.proposal.first blockquote .proposal-text {
+		height: 92px;
+	}
+
+	.proposal.winner.first blockquote {
+		height: 136px;
+	}
+
+	.proposal.winner.first .proposal-source {
+		padding-left: 100px; padding-right: 10px;
+	}
+
+	.proposal.winner .proposal-source {
+		padding-left: 82px;
+	}
+
+	.pentian {
+		max-width: 20em; margin-top: -2em;
+	}
+
+}

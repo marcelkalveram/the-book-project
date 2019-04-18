@@ -1,0 +1,1228 @@
+/* Compass imports */
+@import "compass/css3/opacity";
+@import "compass/css3/border-radius";
+@import "compass/css3/transition";
+@import "compass/css3/box-shadow";
+
+@import "boilerplate";
+@import "reset";
+@import "input";
+
+/* BUTTON/LINKS TRANSITION
+--------------------------------------------------------------------------*/
+.intro a, .proposal a, .form input[type=submit], .button-group a, .social-media li a {
+	@include transition(opacity 0.1s linear);
+	}
+
+/* BACKGROUND IMAGES
+--------------------------------------------------------------------------*/
+body {
+	background: url(../img/bg_lightpaperfibers.png) top left repeat;
+	}
+
+.bg-image-container {
+	position: absolute; width: 100%; height: 726px;
+	overflow: hidden;
+	}
+
+	.bg-image-container .bg-image {
+		position: absolute; top: 32%; left: 50%;
+		margin-left: -50%; max-width: 100%;
+		}
+
+	.header-about {
+		height: 780px;
+	}
+
+	.header-about .bg-image {
+		left: 49.7%; top: 31.5%;
+	}
+
+	/* BACKGROUND IMAGE */
+	.logo {
+		position: absolute; left: 50%; margin-left: -52.5em;
+		width: 105em; height: 38.75em;
+		}
+
+		.logo img {
+			display: block; width: 15em; margin: 1.75em auto 0;
+			}
+
+		.logo h1 {
+			text-indent: -9999px;
+		}
+
+/* BUTTONS
+--------------------------------------------------------------------------*/
+.intro a, .proposal a.fancybox, .form input[type=submit] {
+	display: block; padding: 1em;
+	border: 0; @include border-radius(12px);
+	background: #F47217; color: #FFF; text-align: center;
+	}
+
+	.intro a:hover {
+		// background-color: #F3EBE6; color: #333;
+		background: #F47217; color: #FFF;
+		@include opacity(0.8);
+	}
+
+.proposal a.fancybox {
+	display: block; margin: 3em auto 0; width: 8em; line-height: 0.4em;
+	background-color: #F47217; color: #FFF;
+}
+
+	.proposal a.fancybox:hover {
+		@include opacity(0.75);
+	}
+
+.form input[type=submit] {
+	float: right; width: 12em; font-size: 1em;
+	background-color: #F47217; color: #FFF;
+	cursor: pointer;
+    -webkit-appearance: none; -webkit-text-fill-color:#FFFFFF;
+}
+
+	.form input[type=submit]:hover {
+		@include opacity(0.8);
+	}
+
+/* MASTHEAD
+--------------------------------------------------------------------------*/
+#masthead {
+	margin-bottom: 32%;
+	}
+
+#masthead.votehead {
+	height: 190px; margin-bottom: 0;
+}
+
+	#masthead.votehead .logo {
+		height: auto;
+	}
+
+		#masthead.votehead .bg-image-container {
+			height: 200px;
+		}
+
+	/* MASTHEAD > NAVIGATION */
+	#navigation {
+		padding-top: 7.75em;
+		}
+
+		/* MASTHEAD > NAVIGATION > BUTTON GROUP */
+		.button-group {
+			width: 36.25em; margin: 4.1875em auto 0; padding-left: 1.1875em;
+			}
+
+			.button-group a {
+				margin-right: 10px; padding: 6px; border: 0;
+				background: #F47217; color: #FFF;
+				@include border-radius(12px); @include opacity(1);
+				}
+
+			.button-group a:hover, .button-group a.active, .button-group .big a {
+				background: #F47217;
+				@include opacity(0.75);
+				}
+
+			.button-group .big a {
+				padding: 1em; font-size: 1em; margin-top: -10px;
+				@include border-radius(24px);
+				}
+
+			.button-group .big a.inactive, .button-group .big a:hover{
+				@include opacity(1);
+			}
+
+
+/* QUOTE ELEMENT
+--------------------------------------------------------------------------*/
+.quote {
+	float: none; position: relative; width: 100%;
+  	padding: 1.25em 10% 0.6875em; margin-top: 0; margin-bottom: 24px;
+	border-top: 1px solid #CCC; border-bottom: 1px solid #CCC;
+	background: url(../img/bg-grunge-peach.png) top left repeat;
+	}
+
+	.quote h2, blockquote p {
+		font-size: 1.8em; font-family: Georgia; font-weight: 100; line-height: 1.3em; text-align: center; color: #444;
+	}
+
+	.quote span, .quote b {
+		font-weight: normal; color: #F47217;
+	}
+
+.blockquote-subtitle {
+	margin-top: -1.33em;
+	}
+
+/* SOCIAL MEDIA ICONS
+--------------------------------------------------------------------------*/
+.social-media {
+	padding-bottom: 2em;
+	}
+
+	.social-media h2 {
+		font-size: 1.8em; line-height: 1.3em; font-family: Georgia; font-weight: 100; text-align: center;
+		}
+
+	.social-media ul {
+		list-style: none;
+		width: 20.75em; margin: 0 auto;
+		}
+
+		.social-media li {
+			float: left; margin-right: 0.75em;
+			}
+
+			.social-media li a {
+				display: block; width: 74px; height: 74px; text-indent: -9999px;
+				background: url(../img/icons-social-media.png) top left no-repeat;
+				}
+
+			.social-media .twitter a {
+				background-position: -78px 0;
+				}
+
+			.social-media .twitter a:hover {
+				background-position: -77px -77px;
+				}
+
+			.social-media .facebook a {
+				background-position: 0 -3px;
+			}
+
+			.social-media .facebook a:hover {
+				background-position: 0 -79px;
+			}
+
+			.social-media .google a {
+				background-position: -148px 0;
+			}
+
+			.social-media .google a:hover {
+				background-position: -148px -76px;
+			}
+
+			.social-media .vimeo a {
+				background-position: -222px 0;
+			}
+
+			.social-media .vimeo a:hover {
+				background-position: -222px -76px;
+			}
+
+			.social-media li a img {
+				max-width: 100%;
+			}
+
+		.social-media .last {
+			margin-right: 0;
+			}
+
+/* INTRO BOXES
+--------------------------------------------------------------------------*/
+.intro {
+  	margin: 3em auto 0; max-width: 62.5em; padding-bottom: 3em;
+  	clear: both;
+	}
+
+	.intro .vote {
+		float: left; width: 34%; margin-left: 2%;
+		}
+
+	.intro .video {
+		margin-left: 50%; width: 48%;
+		}
+
+		.video iframe {
+			max-width: 100%;
+			}
+
+		.intro h3 {
+			font-weight: 300;
+			}
+
+/* SEPARATOR
+--------------------------------------------------------------------------*/
+.separator {
+	width: 100%; margin: 0 auto; border-top: 1px solid #CCC; max-width: 62.5em;
+}
+
+/* ADDITIONAL INFO
+--------------------------------------------------------------------------*/
+.additional-info {
+	margin: 1.5em 0 6em; padding: 0.7em 0 2.25em; height: auto;
+	}
+
+	.additional-info img {
+		max-width: 100%;
+	}
+
+	.additional-info h4 {
+		font-weight: 300; color: #F47217;
+		margin-bottom: 0;
+		}
+
+	.additional-info h4, .additional-info p {
+		}
+
+	.additional-info p {
+		font-size: 14px; color: #666;
+		}
+
+/* STEPS
+--------------------------------------------------------------------------*/
+.steps {
+	position: relative;  max-width: 1550px;
+	margin-top: 6em; margin-bottom: 7.75em; margin-right: 10%;
+}
+
+	.steps .tablet {
+		display: none;
+	}
+
+	.steps .cinema {
+		display: none;
+	}
+
+	.step {
+		position: absolute; width: 234px;
+		}
+
+		.step-1, .step-2, .step-3 {
+			padding-left: 1.5em; padding-top: 0.875em;
+			}
+
+		.step-1 {
+			top: 64.2%; left: 20.5%;
+			}
+
+		.step-2 {
+			top: 31.5%; left: 45.5%;
+			}
+
+		.step-3 {
+			top: 55.5%; left: 88.5%; width: 250px;
+			}
+
+/* PROGRESS
+--------------------------------------------------------------------------*/
+.progress {
+	padding: 2em 0 6em;
+}
+
+	.progress-steps, .progress-steps-pointer {
+		width: 90%; max-width: 900px; margin: 0 auto; list-style: none;
+	}
+
+		.progress-steps li a {
+			float: left; width: 8%; margin-right: 2px; height: 24px;
+			background-color: #EEE; @include box-shadow(#CCC 0px 1px 1px inset);
+			text-indent: -9999px;
+		}
+
+			.progress-steps li a:hover {
+				background-color: #CCC;
+			}
+
+			// .progress-steps li a {
+			// 	display:block; width: 100%; height: 100%;
+			// }
+
+		.progress-steps li.month-1 a {
+			@include border-top-left-radius(12px);
+			@include border-bottom-left-radius(12px);
+		}
+
+		.month-12 a {
+			@include border-top-right-radius(12px);
+			@include border-bottom-right-radius(12px);
+		}
+
+		.progress-steps li.selected a {
+			background-color: rgba(243.00, 116.00, 0.00, .75);
+		}
+
+.progress-steps-pointer {
+	background: url(../img/progress-steps-arrow.png) 84.9% 32px no-repeat;
+	padding: 107px 0 0 422px;
+	max-width: 920px;
+}
+
+.details h3.complete {
+	border: 0; margin-bottom: 0; padding-bottom: 0.4em;
+	letter-spacing: 5px;
+	}
+
+/* ABOUT US, PROPOSALS, PARTICIPATE, OBJECTIVES, DETAILS
+--------------------------------------------------------------------------*/
+.about-us, .proposals, .participate, .objectives, .details, .contact, .terms, .proposal-accept {
+	max-width: 62.5em; margin: 2.25em auto 0; padding: 0.75em 0 2.25em;
+}
+
+.about-us, .proposals, .participate, .contact, .proposal-accept {
+	padding-bottom: 3em;
+	}
+
+.collaborators {
+	margin-top: 0;
+	}
+
+	.about-us h3, .proposals h3, .participate h3, .objectives h3, .details h3, .contact h3, .terms h3, .proposal-accept h3 {
+		border-top: 1px solid #CCC; border-bottom: 1px solid #CCC;
+		padding-top: 1em; padding-bottom: 1em; margin-bottom: 2.25em;
+		text-align: center; font-weight: 300;
+		}
+
+	/* PERSON, PROPOSALS
+	--------------------------------------------------------------------------*/
+	.person, .proposal {
+		width: 31%; float: left;
+		margin-right: 1%; margin-left: 1%; margin-top: 0.75em;
+		}
+
+	.person p {
+		font-size: 0.9em;
+		}
+
+		.person .photo {
+			text-align: center;
+		}
+
+		.person .bio {
+			padding: 0 1em;
+		}
+
+		.proposal p {
+			font-size: 1em; color: #555;
+			}
+
+	/* PROPOSAL
+	--------------------------------------------------------------------------*/
+	.proposal {
+		background: url(../img/scrapbook.png) center top no-repeat;
+		height: 340px; padding: .66em .8em .66em .8em;
+		}
+
+		.proposal blockquote {
+			height: 190px; border: 0; padding: 1.25em 2.25em 2.25em;
+			}
+
+			.proposal blockquote .proposal-text {
+				font-family: Courier, serif; text-align: left;
+				height: 142px; overflow: hidden;
+				}
+
+				.proposal blockquote .proposal-text a {
+					color: #333;
+				}
+
+			.proposal  .proposal-source {
+				padding: 0 2.25em 17px;
+				font-family: "Times New Roman", serif; color: #555;
+				text-align: right; font-weight: bold;
+				height: 1em; overflow: hidden; // hide second line if any
+
+				span {
+					display: inline-block; padding-top: 6px;
+					font-family: Arial, sans-serif; font-size: 12px; color: #AAA;
+				}
+				}
+
+			.proposal .social-count, {
+				float: left; padding-left: 36px; font-size: 11px;
+			}
+
+			.proposal .votes {
+				float: left; background-color: #CCC;
+				margin: -7px 0 0 36px; @include border-radius(24px);
+				font-size: 12px; font-weight: bold; text-align: center;
+			}
+
+				.proposal .votes a {
+					display: block; width: 100%; height: 100%;  padding: 6px 12px;
+					color: #666;
+				}
+
+				.count-facebook, .count-twitter {
+					display: inline-block; position: relative; width: 42px;
+				}
+
+				.proposal .count-facebook i, .proposal .count-twitter i {
+					display: inline-block; width: 16px; height: 16px; padding-top: 3px;
+					background: url(../img/icon-count.png) left center no-repeat;
+				}
+
+				.proposal .count-twitter i {
+					background-position: -85px 0;
+				}
+
+				.proposal .count-facebook span, .proposal .count-twitter span {
+					position: absolute; top: 0; left: 20px;
+					color: #999;
+				}
+
+	.full {
+		padding-bottom: 3em !important; // so that it is not overwritten in mobile version
+	}
+
+		.person img {
+			width: 259px; border: 1px solid #CCC; padding: 4px;
+			@include border-radius(24px); @include opacity(0.5);
+			}
+
+	.proposal-accept .content {
+		padding-bottom: 3em; margin-bottom: 3em; border-bottom: 1px solid #CCC;
+	}
+
+		.proposal-accept .unlocked, .proposal-accept .unlocked-button {
+			display: block; float: none; margin: 0 auto; width: 486px;
+		}
+
+		.proposal-accept .unlocked-button input[type=submit] {
+			float: none; margin: 1em auto;
+		}
+
+	/* PROPOSAL
+	--------------------------------------------------------------------------*/
+	.proposal.winner {
+		position: relative; margin-top: 48px;
+	}
+
+		.proposal.winner blockquote {
+			height: 160px;
+		}
+
+	.proposal.winner .trophy {
+		position: absolute; top: 150px; left: 33px;
+	}
+
+	.proposal.winner .medal {
+		position: absolute; top: 158px; left: 44px;
+	}
+
+	.proposal.winner .proposal-source {
+		padding-left: 120px; text-align: left;
+	}
+
+	.proposal.winner.first .proposal-source {
+		padding-left: 124px; padding-right: 0;
+	}
+
+
+/* OBJECTIVES, DETAILS
+--------------------------------------------------------------------------*/
+.details .info {
+	margin-top: 3em;
+}
+
+	.info h4, .info p {
+		// margin-left: 128px;
+		margin-left: 124px;
+	}
+
+	.details dl dt {
+		color: #F47217;
+	}
+
+	.details dl dd {
+		margin-bottom: 1.5em;
+	}
+
+	.share-single {
+		text-align: center; color: rgb(244, 114, 23);
+		font-size: 1.33em; margin-bottom: -1em; margin-top: 2em;
+	}
+
+/* COLLABORATORS
+--------------------------------------------------------------------------*/
+.collaborators {
+	padding-top: 3em !important;
+}
+
+.collaborator {
+	float: left; width: 27%; margin-right: 3%; margin-left: 3%;
+}
+
+	.collaborator-logo {
+		text-align: center;
+	}
+
+	.collaborator-big {
+		width: 100%; padding: 3em 34px 34px; margin: auto; float: none;
+	}
+
+		.collaborator-big .collaborator-logo {
+			padding-bottom: 3em;
+		}
+
+	.mark-stevenson {
+		padding-top: 2em; padding-bottom: 1em;
+	}
+
+	.mark-stevenson .quotation {
+		margin:0 auto; max-width: 62.5em;
+	}
+
+		.mark-stevenson .image {
+			float: left; border: 0;
+		}
+
+		.mark-stevenson blockquote {
+			margin-left: 8em; width: 80%; border: 0;
+		}
+
+			.mark-stevenson blockquote p {
+				font-size: 1.33em; text-align: left; border: 0;
+			}
+
+			.mark-stevenson a.fancybox {
+				font-size: 1em; color: #999;
+			}
+
+			.mark-stevenson .cite {
+				font-family: Georgia;
+				font-size: 1em; font-weight: bold; color: #F47217;
+				margin: 0 0 1.25em 8em; padding: 0 1.1875em;
+			}
+
+				.mark-stevenson .cite span {
+					// color: #999;
+
+				}
+
+	.collaborator-big .collaborator-logo {
+		float: left; padding-right: 34px;
+	}
+
+/* OBJECTIVES
+--------------------------------------------------------------------------*/
+.objectives {
+	margin-bottom: 0;
+	}
+
+	.objectives h4 {
+		font-weight: 300;
+		}
+
+	.objectives h4, .objectives .info p {
+		margin-left: 400px;
+		}
+
+	.objectives .info p {
+		margin-bottom: 2em;
+		}
+
+	.objectives .target-container {
+		float: left; margin-top: 2.2em;
+		}
+
+		.target-container .tablet {
+			display: none;
+			}
+
+		.target-container .mobile {
+			display: none;
+			}
+
+	.icon-idea {
+		background: url(../img/icon-book.png) 0 0 no-repeat;
+		width: 124px; height: 96px; float: left;
+		margin-left: -20px;
+		}
+
+	.icon-notepad {
+		background: url(../img/icon-agenda.png) 0 0 no-repeat;
+		width: 86px; height: 86px; float: left;
+		margin-left: 7px; margin-top: 15px;
+		}
+
+	.icon-user {
+		background: url(../img/icon-author.png) 0 0 no-repeat;
+		width: 96px; height: 96px; float: left;
+		margin-top: 7px;
+		}
+
+/* TIMETABLE
+--------------------------------------------------------------------------*/
+.timetable {
+
+}
+
+	.timetable h4 {
+		font-size: 22px; font-weight: 300; color: #DB721F;
+	}
+
+	.date-1 {
+		width: 830px; height: 152px; margin-left: 59px; padding-left: 188px; padding-top: 20px;
+		background: url(../img/timetable-dates.png) top left no-repeat;
+		}
+
+	.date-2 {
+		width: 740px; margin-left: 183px; margin-top: -9px; padding-left: 108px; padding-top: 25px;
+		background: url(../img/timetable-dates.png) 0 -154px no-repeat;
+		}
+
+		.date-2 h4 {
+			font-size: 20px; color: #3C37A1;
+		}
+
+		.date-2 a, .date-2 a:link, .date-2 a:visited {
+			color: #3C37A1; border-bottom: 1px solid #3C37A1;
+		}
+
+		.date-2 a:hover {
+			border-bottom: 0;
+		}
+
+	.date-3 {
+		float: right; width: 805px; height: 200px; margin-right: 60px; padding-right: 160px; padding-top: 13px;
+		background: url(../img/timetable-dates.png) right -320px no-repeat;
+	}
+
+		.date-3 h4, .date-3 p {
+			text-align: right;
+		}
+
+/* PARTICIPATE FORM
+--------------------------------------------------------------------------*/
+.arrow {
+	position: relative;
+	top: 0;
+	left: 638px;
+}
+
+.form h4 {
+	font-size: 17px;
+}
+
+.form p {
+	font-size: 16px;
+}
+
+.form-step-1, .form-step-2 {
+	padding-left: 80px; margin-bottom: 2.5em;
+}
+
+.form-step-1 {
+	background: url(../img/step-1.png) top left no-repeat;
+}
+
+.form-step-2 {
+	background: url(../img/step-2.png) top left no-repeat;
+}
+
+.form textarea {
+	height: 20em; border: 1px solid #CCC; line-height: 1.5em;
+}
+
+#charCount {
+	text-align: right; margin-bottom: 6px;
+	color: #999;
+}
+
+.form input[type=submit] {
+	margin-right: 1em;
+}
+
+.form input {
+	margin-top: 0.4em;
+}
+
+.form label {
+	font-size: 0.8em;
+}
+
+.form .locked-button input[type=submit]:hover {
+	zoom: 1; filter: alpha(opacity=100); opacity: 1;
+}
+
+.form .notice, 
+.pentian .notice {
+	margin: 2em 0; padding: 20px 16px; /* 0 */
+	font-size: 14px;
+	@include border-radius(1em);
+	border: 1px dashed rgb(244, 114, 23);
+	background: url(../img/bg-grunge-peach.png) top left repeat;
+}
+
+	.notice-icon {
+		float: left;
+		padding: 3em 3em 0 1.75em;
+	}
+
+	.form .notice p {
+		margin-left: 192px
+	}
+
+.pentian {
+	max-width: 57.5em;
+	margin: -5em auto 0;
+	padding: 0.75em 0 2.25em;	
+}
+
+	.pentian .notice {
+		padding: 20px 16px 72px; 
+		border-color: #00b9d2; 
+		background: #e4f0f2; 
+	}
+
+		.pentian .notice img {
+			margin-left: 26px; margin-top: 0; padding: 0;
+		}
+
+		.pentian .notice p {
+			margin-bottom: 0; margin-left: 132px; 
+		}
+
+		.pentian .notice .cta-button {
+			margin-top: 1em; margin-bottom: 0; margin-left: 24px; float: left;
+		}
+
+			.pentian .notice .cta-button a {
+				background: #00b9d2; display: inline-block; padding: 6px 12px;
+				border-radius: 12px;
+				color: #FFF;
+			}
+
+			.pentian .notice .cta-button a:hover {
+				opacity: 0.8;
+			}
+
+.pentian br.desktop {
+	display: inline;
+}
+
+.locked, .unlocked {
+	float: left;
+	zoom: 1; filter: alpha(opacity=50); opacity: 0.5;
+	width: 75%;
+}
+
+.unlocked {
+	zoom: 1; filter: alpha(opacity=100); opacity: 1;
+}
+
+.locked-button {
+	zoom: 1; filter: alpha(opacity=50); opacity: 0.5;
+}
+
+.unlocked-button {
+	zoom: 1; filter: alpha(opacity=100); opacity: 1;
+}
+
+.forename, .lastname, .email {
+	margin-right: 5%;
+}
+
+.form .forename {
+	float: left; width: 28.5%;
+}
+
+.form .lastname {
+	float: left; width: 28.5%;
+}
+
+.form .email {
+	float: left; width: 33%; margin-right: 0;
+}
+
+.form .city {
+	width: 40%; margin-left: 60%;
+}
+
+.error-message {
+	padding: 6px; margin-bottom: 1em;
+	font-size: 13px; color: #FFF; background-color: #F00;
+	@include border-radius(6px);
+	text-align: center;
+}
+
+.form-sent {
+	background: none;
+}
+
+.participate .success-message {
+	margin-top: 4em; float: left;
+}
+
+.success-message {
+	width: 50%;
+	height: 250px;
+	margin-bottom: 4em;
+}
+
+	.success-message h4 {
+		// background: url(../img/checkmark.png) top left no-repeat; padding-left: 64px;
+		padding-top: 12px; padding-bottom: 12px; margin-bottom: 1em;
+		font-size: 1.4em; margin-bottom: 0.5em; width: 32em;
+	}
+
+.success-message-share {
+	margin-top: 4em;
+}
+
+	.success-message-share h4 {
+		margin-bottom: 0.5em;
+		padding: 20px 0 12px 60%;
+	}
+
+	.success-message-share p {
+		padding-top: 5px; padding-left: 60%;
+	}
+
+.textarea .error-message {
+	font-size: 15px;
+}
+
+.participate .social-media {
+	padding-left: 60%;
+}
+
+.proposal-accept .success-message {
+	width: auto; text-align: center;
+	}
+
+	.proposal-accept h4, .proposal-accept p {
+		width: auto;
+	}
+
+
+/* HELP FORM
+--------------------------------------------------------------------------*/
+.help-form {
+	float: left; width: 100%; padding-right: 43%;
+	background: url(../img/contact.png) 104% 36% no-repeat;
+}
+
+	.help-form p {
+		width: 176%;
+	}
+
+	.help-form .forename {
+		width: 45%;
+	}
+
+	.help-form .lastname {
+		width: 50%; margin-right: 0;
+	}
+
+	.help-form .email {
+		width: 63%;
+	}
+
+	.help-form input[type=submit] {
+		height: 36px; font-size: 15px; line-height: 12px;
+		padding-top: 12px; margin-top: 19px; margin-right: 0;
+	}
+
+/* ADDRESS
+--------------------------------------------------------------------------*/
+.address {
+	padding-left: 55%; padding-bottom: 2em;
+	background: url(../img/house.png) 4% 28% no-repeat;
+}
+
+.address h4 {
+	font-size: 1em;
+}
+
+/* TERMS
+--------------------------------------------------------------------------*/
+.terms {
+
+}
+
+	.terms h3 {
+		margin-bottom: 1.25em; margin-top: 2em;
+	}
+
+	.terms ul, .terms ol {
+		margin-left: 3em;
+	}
+
+	.form input.terms-link {
+		float: left; margin-top: .3em; margin-right: 0.5em;
+	}
+
+.terms-checkbox {
+	margin: 0 auto 0.5em; clear: left;
+	}
+
+	.terms-checkbox .error-message {
+		margin-top: 1em;
+	}
+
+/* DETAILS VOTE
+--------------------------------------------------------------------------*/
+.details.vote {
+	position: relative;
+}
+
+	.details.vote img {
+		position: absolute;
+		top: -9px; left: 26px;
+	}
+
+	.details.vote ul {
+		list-style: none;
+		padding-bottom: 16%; margin-top: 3em;
+		}
+
+		.details.vote ul li {
+			float: left;
+			width: 25%; text-align: center;
+		}
+
+			.details.vote ul li a {
+				display: block;
+				@include transition-property(opacity);
+  				@include transition-duration(0.2s);
+  				@include transition-timing-function(ease-in);
+  				@include opacity(0.5);
+			}
+
+			.details.vote ul li a:hover {
+				@include opacity(1);
+			}
+
+	.vote-title {
+		line-height: 1.66em;
+	}
+
+		.vote-title span {
+			padding: 6px 12px; background-color: #F4EDE6;
+			@include border-radius(24px);
+		}
+
+		.vote-title span.starts {
+			background: none; color: rgb(244, 114, 23); padding: 0;
+		}
+
+		.vote-title a {
+			color: rgb(244, 114, 23);
+		}
+
+	.backlink a, .backlink a:link, .backlink a:visited {
+		display: block; border-top: 1px solid rgb(204, 204, 204); padding-top: 1em;
+	}
+
+	.backlink a:hover {
+		text-decoration: underline;
+	}
+
+	#vote-sso {
+		margin-top: 3em;
+	}
+
+/* FOOTER
+--------------------------------------------------------------------------*/
+#pre-footer {
+	width: 100%; margin: 0 auto; padding-top: 1em; padding-bottom: 1em;
+	background-color: #F2EAE4; text-align: center;
+	@include box-shadow(inset 1px 15px 12px -17px rgba(31,31,31,1));
+	}
+
+#footer-transition {
+
+	}
+
+	#footer .inline-list {
+		padding-top: 24px;
+		}
+
+		#footer a, .made-in {
+			color: #9F8A7A;
+		}
+
+		#footer a.active, #footer a:hover {
+			background: none; color: #666;
+			}
+
+	#footer {
+		margin: 0 auto;
+		background-color: #EADACE;
+		}
+
+		#footer-wrapper {
+			max-width: 62.5em; margin: 0 auto;
+			}
+
+			.inline-list {
+				width: 42.3em; margin: 0 auto; padding-bottom: 16px;
+				list-style: none; overflow: hidden;
+				}
+
+				.inline-list > li {
+					display: block; float: left; margin-left: 1.375em;
+					list-style: none;
+					}
+
+				.inline-list > li.copyright {
+					margin-left: 0; color: #666;
+				}
+
+			    	.inline-list > li > * {
+			      		display: block;
+			      		}
+
+			      	.inline-list > li > span {
+			      		display: inline-block; padding-left: 1.15em;
+			      		}
+
+		.made-in {
+			width: 164px; margin: 6px auto 0; padding: 0 0 24px 40px;
+			background: url(../img/icon-valencia.png) left -3px no-repeat;
+			color: #666; text-align: center;
+			}
+
+/* FANCYBOX
+--------------------------------------------------------------------------*/
+.proposal-overlay, #event-poster {
+	display: none; padding: 1em;
+}
+
+#event-poster figcaption {
+	text-align: center; padding: 1.75em 1em 0;
+}
+
+	.proposal-overlay h1 {
+		font-weight: 300;
+	}
+
+	.proposal-overlay .spanish {
+		display: none;
+	}
+
+.switch-language {
+	margin: 0;
+}
+
+	.switch-language a {
+		font-size: 12px; color: #999;
+	}
+
+/* HELPERS
+--------------------------------------------------------------------------*/
+.clear {
+	clear: both;
+	}
+
+.active {
+	background-color: #2284a1;
+	color: white;
+	}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+	}
+
+.clearfix:after {
+	clear: both;
+	}
+
+.break.mobile {
+	display: none;
+}
+
+@import "tiptwitter";
+@import "socialcount";
+@import "breakpoints";
+@import "retina";
+@import "fancybox";
+@import "wowbook";
+
+.arrow-book {
+	background: url(../img/arrow-book.png) top right no-repeat;
+	height: 100px;
+	width: 577px;
+	padding-top: 84px;
+	margin: -52px 0 0;
+	color: #F47217;
+	padding-left: 140px;
+	position: relative;
+	left: 30%;
+	@media (max-width: 1194px) {
+		left: 26%;
+	}
+	@media (max-width: 1050px) {
+		left: 24%;
+	}
+	@media (max-width: 984px) {
+		left: 20%;
+	}
+	@media (max-width: 940px) {
+		left: 17%;
+	}
+	@media (max-width: 870px) {
+		left: 12%;
+	}
+	@media (max-width: 810px) {
+		left: 9%;
+	}
+	@media (max-width: 770px) {
+		left: 7%;
+	}
+	@media (max-width: 750px) {
+		left: 0%;
+	}
+	@media (max-width: 720px) {
+		left: -2%;
+	}
+	@media (max-width: 680px) {
+		left: -7%;
+	}
+	@media (max-width: 630px) {
+		left: -9%;
+	}
+	@media (max-width: 600px) {
+		left: -12%;
+	}
+	@media (max-width: 576px) {
+		display: none;
+	}
+}
+
+#the-book {
+	margin: 5em auto 4em;
+}
+
+.page {
+	background: #FFF;
+	padding: 3em;
+	font-family: Georgia, serif;
+}
+
+.cover {
+	padding: 0;
+	background: url(../img/book-cover.jpg) top left no-repeat;
+	// background-size: 500px 665px;
+}
+
+.wowbook-page:first-child .wowbook-gutter-shadow {
+	display: none;
+}
+
+	.page h4 {
+		text-align: center;
+		margin-top: 11em;
+		color: #666;
+	}
+
+	.long h4 {
+		margin-top: 10em;
+	}
+
+	.page h5 {
+		color: #F47217;
+		font-size: 2em;
+		text-align: center;
+		margin-top: -4px;
+	}
+
+	.page h6 {
+		text-align: center;
+		margin-top: -0.5em;
+	}
